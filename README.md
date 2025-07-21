@@ -89,9 +89,9 @@ You also need to download a tokenizer from the NLTK library. Open a Python inter
 import nltk
 nltk.download('punkt')
 4. Get the Dataset
-This project requires the movie_dataset.csv file. Place it in the project's root directory.
+This project requires the movie_dataset.csv file.(https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv).
 
-Pro Tip: Your script movie_code.py might have a hardcoded file path (e.g., D:/.../movie_dataset.csv). It's best to change this to a relative path like movie_dataset.csv to ensure it works on any computer.
+
 
 5. Generate the Model Files
 Run the data processing script from your terminal. This will create the movie_pkl.pkl and similarity_matrix.pkl files needed by the app.
